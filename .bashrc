@@ -127,3 +127,7 @@ alias flutter="powershell.exe flutter"
 
 # xdg-open
 alias xdg-open="powershell.exe start"
+
+# windows' docker 
+alias docker="docker.exe"
+alias docker-compose="docker-compose.exe"
