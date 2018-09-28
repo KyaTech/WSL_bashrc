@@ -128,6 +128,17 @@ alias flutter="powershell.exe flutter"
 # xdg-open
 alias xdg-open="powershell.exe start"
 
-# windows' docker 
-alias docker="docker.exe"
-alias docker-compose="docker-compose.exe"
+# my big pc 
+alias gobig="ssh ayk@192.168.176.39"
+
+# docker host 
+export DOCKER_HOST=localhost:2375
+
+# Go installation
+export PATH=$PATH:/usr/local/go/bin
+
+
+# launch zsh 
+if [ -t 1 ]; then
+	exec zsh
+fi
